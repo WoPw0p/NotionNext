@@ -1,7 +1,7 @@
 const CONFIG_NEXT = {
 
   HOME_BANNER: false, // 首页是否显示大图及标语 [true,false]
-  HOME_BANNER_Strings: ['Hi，我是一个程序员', 'Hi，我是一个打工人', 'Hi，我是一个干饭人', '欢迎来到我的博客🎉'], // 首页大图标语文字
+  HOME_BANNER_Strings: ['年轻人，是什么指引你来到这里', '是对知识的渴望吗', '是对自由的向往吗'，'无论如何，希望你能得到你想得到的'], // 首页大图标语文字
 
   NAV_TYPE: 'normal', // ['fixed','autoCollapse','normal'] 分别是固定屏幕顶部、屏幕顶部自动折叠，不固定
 
@@ -31,7 +31,7 @@ const CONFIG_NEXT = {
   WIDGET_TOC: true, // 移动端显示悬浮目录
 
   ARTICLE_SHARE: false, // 文章分享功能
-  ARTICLE_RELATE_POSTS: true, // 相关文章推荐
+  ARTICLE_RELATE_POSTS: false, // 相关文章推荐
   ARTICLE_COPYRIGHT: true // 文章版权声明
 
 }
